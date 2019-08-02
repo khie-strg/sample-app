@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ssh khie@167.71.39.216 <<EOF
+ssh khie@167.71.39.216 << EOF
   cd ~/sample-app
   git pull
   npm install
